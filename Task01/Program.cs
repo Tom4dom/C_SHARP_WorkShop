@@ -8,20 +8,37 @@
 
 
 
+//My vision of this program:
+// Console.WriteLine("Input integer 'A': ");
+// int numberA = Convert.ToInt32(Console.ReadLine());
 
+// Console.WriteLine("Input integer 'B': ");
+// int numberB = Convert.ToInt32(Console.ReadLine());
+
+// int numberC = numberA / numberB;
+
+// if (numberB == numberC)
+// {
+//     Console.WriteLine($"Yes! It is true that {numberA} is a square of {numberB}");
+// }
+// else
+// {
+//     Console.WriteLine($"No! It is not true that {numberA} is a square of {numberB}");
+// }
+
+
+
+//Classmates vision:
 Console.WriteLine("Input integer 'A': ");
-int numberA = Convert.ToInt32(Console.ReadLine());
+int A = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input integer 'B': ");
+int B = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Input integer 'B'");
-int numberB = Convert.ToInt32(Console.ReadLine());
-
-int numberC = numberA/numberB;
-
-if (numberB == numberC)
+if (A == B * B)
 {
-    Console.WriteLine($"Yes! It is true that {numberA} is a square of {numberB}");
+    Console.WriteLine($"Yes! It is true that {A} is a square of {B}");
 }
 else
 {
-    Console.WriteLine($"No! It is not true that {numberA} is square of {numberB}");
+    Console.WriteLine($"No! It is not true that {A} is a square of {B}");
 }
