@@ -6,7 +6,15 @@
 // 918 -> 8
 
 
+// Console.WriteLine("Dear user input three-digit number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int lastdigit = number % 10;
+// Console.WriteLine(lastdigit);
+
+
+
+//Yan's vision of this task:
+
 Console.WriteLine("Dear user input three-digit number: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int lastdigit = number%10;
-Console.WriteLine(lastdigit);
+Console.WriteLine($"The lastdigit of {number} is {number % 10}");
