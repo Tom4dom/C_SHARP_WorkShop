@@ -4,40 +4,78 @@
 // 5 -> Пятниц
 
 
-Console.WriteLine("Please, input the number of the day of the week: ");
-int day = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Please, input the number of the day of the week: ");
+// int day = Convert.ToInt32(Console.ReadLine());
 
-if (day == 1)
+// // if (day == 1)
+// {
+//     Console.WriteLine("Monday");
+// }
+// if (day == 2)
+// {
+//     Console.WriteLine("Tuesday");
+// }
+// if (day == 3)
+// {
+//     Console.WriteLine("Wednesday");
+// }
+// if (day == 4)
+// {
+//     Console.WriteLine("Thursday");
+// }
+// if (day == 5)
+// {
+//     Console.WriteLine("Friday");
+// }
+// if (day == 6)
+// {
+//     Console.WriteLine("Saturday");
+// }
+// if (day == 7)
+// {
+//     Console.WriteLine("Sunday");
+// }
+// else
+// {
+//     Console.WriteLine("Sorry! But it is not a number of the day of the week!");
+// }
+
+
+
+
+Console.WriteLine("Please, input the number of the day of the week: ");
+string day = Console.ReadLine();
+
+if (day == "1")
 {
-    Console.WriteLine("Monday");
+    Console.WriteLine("It is Monday");
 }
-if (day == 2)
+else if (day == "2")
 {
-    Console.WriteLine("Tuesday");
+    Console.WriteLine("It is Tuesday");
 }
-if (day == 3)
+else if (day == "3")
 {
-    Console.WriteLine("Wednesday");
+    Console.WriteLine("It is Wednesday");
 }
-if (day == 4)
+else if (day == "4")
 {
-    Console.WriteLine("Thursday");
+    Console.WriteLine("It is Thursday");
 }
-if (day == 5)
+else if(day == "5")
 {
-    Console.WriteLine("Friday");
+    Console.WriteLine("It is Friday");
 }
-if (day == 6)
+else if(day == "6")
 {
-    Console.WriteLine("Saturday");
+    Console.WriteLine("It is Saturday");
 }
-if (day == 7)
+else if(day == "7")
 {
-    Console.WriteLine("Sunday");
+    Console.WriteLine("It is Sunday");
 }
 else
 {
-    Console.WriteLine("Sorry! But it is not a number of the day of the week!");
+    Console.WriteLine("Sorry! But this is not a number of the day of the week!");
 }
-
 
