@@ -16,5 +16,14 @@
 //Yan's vision of this task:
 
 Console.WriteLine("Dear user input three-digit number: ");
-int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"The lastdigit of {number} is {number % 10}");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num >= 100 && num <= 999)
+{
+    Console.WriteLine($"The lastdigit of {num} is {num % 10}");
+}
+
+else
+{
+    Console.WriteLine("This is incorrect number!");
+}
+
