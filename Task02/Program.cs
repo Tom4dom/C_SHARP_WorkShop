@@ -12,7 +12,11 @@ if (a > b)
 {
     Console.WriteLine($"{a} greate than {b}");
 }
-else
+else if (a < b)
 {
     Console.WriteLine($"{a} less than {b}");
+}
+else
+{
+    Console.WriteLine ($"{a} equals {b}");
 }
